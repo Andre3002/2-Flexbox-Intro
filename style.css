@@ -1,0 +1,101 @@
+/* General Styles */
+
+main {
+    margin-top: 60px;
+}
+
+main h1 {
+    margin: 0 10px;
+    /* border-bottom: 1px solid black; */
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 70px;
+}
+
+main h2 {
+
+    margin: 18px 0 12px 0;
+    font-family: 'Special Elite', cursive;
+    font-size: 24px;
+}
+
+main h3 {
+    margin: 18px 0 12px 0;
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+}
+
+main p li {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.group img {
+    width: 100%;
+}
+
+/* Testing background images */
+.bg-ocean {
+    background-image: url("images/Sunny-Ocean.JPG");
+}
+
+.bg-callout {
+    background-color: aqua;
+}
+
+/* Styled links using pseudo-classes */
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
+
+/* Groups & Items  (Mobile First) */
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+.item-double {
+    flex: 2;
+    margin: 10px;
+}
+
+/* Groups & Items  (Desktop) */
+
+@media all and (min-width: 800px) {
+    section {
+        padding: 0 10%;
+    }
+
+    .group {
+        flex-direction: row;
+    }
+
+    article {
+        padding: 10px;
+    }
+}
