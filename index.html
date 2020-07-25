@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -14,15 +14,22 @@
 </head>
 
 <body>
+    <header class="bg-ocean">
+        <h1> Andre </h1>
+        <nav>
+            <ul>
+                <li> <a href="#about"> About Me </a> </li>
+                <li> <a href="#upcoming"> Upcoming Projects </a> </li>
+                <li> <a href="#contact"> Contact </a> </li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <section class= "bg-ocean">
-            <br>
-            <h1> Andre </h1>
-        </section>
 
         <!-- Group #1 with 2 items:  Picture@ 2/3rds and Intro text@ 1/3 -->
 
-        <section>
+        <section id="about">
             <div class="group">
                 <div class="item">
                     <img src="images/andre-at-desk.JPG" alt="Andre at desk">
@@ -49,7 +56,7 @@
 
         <!-- About me -->
 
-        <section class= "bg-callout">
+        <section class="bg-callout">
             <article>
                 <h2> About Me </h2>
                 <p>
@@ -68,7 +75,7 @@
 
         <!-- Projects flexbox 3 equal columns -->
 
-        <section>
+        <section id="upcoming">
             <h2> Upcoming Projects </h2>
             <div class="group">
                 <div class="item">
@@ -94,17 +101,33 @@
         </section>
 
         <!-- Contact me -->
-        <section class = "bg-callout">
+        <section id="contact" class="bg-callout">
             <h2>Contact Me</h2>
+
+            <form action="https://formspree.io/afowlk1@hotmail.com" method="post">
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" placeholder="xxxxxxxx" />
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="xxxxxx@xxxx.xxx" />
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="xxxxxxxxxxxxx">
+                    </textarea>
+
+                <button>Send</button>
+            </form>
+
+
             <p> I can be reached at: <a href="https://github.com/AndreTheDeveloper">
                     GitHub</a> and <a href="https://www.linkedin.com/in/andrefowlkes/">
                     LinkedIn </a></p>
             <a href="https://github.com/AndreTheDeveloper">
-                <img src="images/GitHub-Logo.PNG" width="100" alt = "GitHub Link">
+                <img src="images/GitHub-Logo.PNG" width="100" alt="GitHub Link">
             </a>
             <br>
             <a href="https://www.linkedin.com/in/andrefowlkes/">
-                <img src="images/LinkedIn-Logo.PNG" width="100" alt = "LinkedIn Link">
+                <img src="images/LinkedIn-Logo.PNG" width="100" alt="LinkedIn Link">
             </a>
         </section>
 

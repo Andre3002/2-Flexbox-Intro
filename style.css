@@ -4,8 +4,43 @@ main {
     margin-top: 60px;
 }
 
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+header a, header a:visited {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    color: black;
+    padding: 10px 0 
+}
+
+header h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 70px;
+}
+
+header nav{
+    font-family: 'Special Elite', cursive;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
 main h1 {
-    margin: 0 10px;
+    margin: 0 auto;
     /* border-bottom: 1px solid black; */
     text-align: center;
     font-family: 'Special Elite', cursive;
@@ -28,6 +63,16 @@ main h3 {
 main p li {
     font-family: 'Roboto', sans-serif;
     margin-top: 0;
+}
+
+section{
+    padding: 30px 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
 }
 
 footer {
@@ -88,7 +133,7 @@ a:active {
 
 @media all and (min-width: 800px) {
     section {
-        padding: 0 10%;
+        
     }
 
     .group {
