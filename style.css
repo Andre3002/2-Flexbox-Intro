@@ -14,10 +14,10 @@ header nav ul {
     
 }
 
-header a, header a:visited {
+/* header a, header a:visited {
     color: black;
     font-family: 'Roboto', sans-serif;
-}
+} */
 
 header {
     text-align: center;
@@ -96,11 +96,11 @@ footer {
 /* Styled links using pseudo-classes */
 
 a:link {
-    color: blue;
+    color: black;
 }
 
 a:visited {
-    color: purple;
+    color:darkgrey;
 }
 
 a:hover {
@@ -132,10 +132,6 @@ a:active {
 /* Groups & Items  (Desktop) */
 
 @media all and (min-width: 800px) {
-    section {
-        
-    }
-
     .group {
         flex-direction: row;
     }
