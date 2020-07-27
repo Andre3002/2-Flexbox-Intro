@@ -11,7 +11,7 @@ header nav ul {
     max-width: 800px;
     width: 80%;
     margin: 0 auto;
-    
+    padding: 0;    
 }
 
 /* header a, header a:visited {
@@ -32,7 +32,7 @@ header h1 {
 
 header nav{
     font-family: 'Special Elite', cursive;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 a {
@@ -51,7 +51,7 @@ main h2 {
 
     margin: 18px 0 12px 0;
     font-family: 'Special Elite', cursive;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 main h3 {
@@ -100,7 +100,7 @@ a:link {
 }
 
 a:visited {
-    color:darkgrey;
+    color:whitesmoke;
 }
 
 a:hover {
